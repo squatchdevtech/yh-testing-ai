@@ -1,0 +1,71 @@
+# .NET
+bin/
+obj/
+out/
+*.user
+*.suo
+*.cache
+*.docstates
+*.dll
+*.pdb
+
+# Visual Studio
+.vs/
+.vscode/
+*.vsidx
+*.v2
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Docker
+Dockerfile*
+.dockerignore
+docker-compose*
+*.tar
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!AWS-SETUP.md
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime
+appsettings.Development.json
+appsettings.Local.json
+
+# AWS
+.aws/
+aws-credentials
